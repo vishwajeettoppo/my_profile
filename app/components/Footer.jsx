@@ -29,7 +29,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/vishwajeettoppo">
+            <a target="_blank" href="https://www.instagram.com/vishwajeett_07/">
               Instagram
             </a>
           </li>

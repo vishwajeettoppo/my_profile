@@ -1,7 +1,7 @@
 import { DownloadIcon, HandIcon, MoveRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import profile from "@/assets/profile.jpg";
+import profile from "@/assets/myimage4.jpg";
 import { motion } from "motion/react";
 
 const Header = () => {
@@ -14,11 +14,12 @@ const Header = () => {
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
+        className="rounded-full w-48 h-48"
       >
         <Image
           src={profile}
           alt=""
-          className=" rounded-full w-32 h-32 object-cover"
+          className=" rounded-full h-48 object-cover border-3 border-black"
         />
       </motion.div>
       <motion.h3
@@ -35,7 +36,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] "
       >
-        frontend web developer based in India
+        fullstack web developer based in India
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -43,8 +44,8 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className=" max-w-2xl mx-auto "
       >
-        I am a frontend developer from India, with 4 years of experience in
-        multiple companies like Microsoft, Tesla and Apple.
+        I am a fullstack developer from India, with 2 years of experience in
+        multiple technologies like Next, React, Node, Express, MongoDB, Firebase, TailwindCSS etc.
       </motion.p>
       <div className=" flex flex-col sm:flex-row gap-5 items-center mt-4">
         <motion.a

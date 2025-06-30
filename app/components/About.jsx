@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import profile from "@/assets/profile.jpg";
+import myimage from "@/assets/myimage4.jpg";
 import { infoList, toolsData } from "@/assets/assets";
 import { motion } from "motion/react";
 
@@ -17,19 +17,16 @@ const About = () => {
       <h2 className="text-center text-5xl">About Me</h2>
 
       <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
-        <div className="w-64 h-100 sm:w-80 rounded-3xl max-w-none border-2">
+        <div className="w-64 h-100 sm:w-80 rounded-3xl max-w-none border-3 border-black">
           <Image
-            src={profile}
+            src={myimage}
             alt=""
             className="w-full h-full rounded-3xl object-cover"
           />
         </div>
         <div className="flex-1">
           <p className="mb-10 max-w-2xl text-justify">
-            I am an experienced Frontend Developer with over 4 years of
-            professional expertise in the field. Throughout my career, I have
-            had the priviledge of collaborating with prestigious organizations,
-            contributing to their success and growth.
+          "I am a dedicated software developer with a strong foundation in full-stack web development, specializing in both frontend and backend technologies. Proficient in frameworks like React.js and Next.js, I enjoy creating seamless, user-friendly applications that solve real-world problems."
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 max-w-2xl gap-6">

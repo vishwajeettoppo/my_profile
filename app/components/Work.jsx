@@ -8,8 +8,7 @@ const Work = () => {
       <h4 className="text-center mb-2 text-lg font-outfit">My portfolio</h4>
       <h2 className="text-center text-5xl">My latest works</h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12">
-        Welcome to my web development portfolio! Explore a collection of
-        projects showcasing my expertise in front-end development.
+      Showcasing a portfolio of full-stack web applications, combining dynamic frontend designs with efficient backend architectures.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10">
         {workData.map((project, index) => (
@@ -23,7 +22,7 @@ const Work = () => {
               className=" h-full w-full object-cover rounded-lg"
             />
             {/* {console.log(project.bgImage)} */}
-            <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-300 group-hover:bottom-7">
+            <a href={project.link} className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-300 group-hover:bottom-7">
               <div>
                 <h2 className="font-semibold">{project.title}</h2>
                 <p className="text-sm text-gray-700">{project.description}</p>
@@ -31,7 +30,7 @@ const Work = () => {
               <div className="border rounded-full border-black w-15 aspect-square flex items-center justify-center group-hover:bg-gray-400 transition">
                 <Image src={assets.send} alt="" className="w-5" />
               </div>
-            </div>
+            </a>
           </div>
         ))}
       </div>

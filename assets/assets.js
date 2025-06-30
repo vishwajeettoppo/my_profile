@@ -101,23 +101,27 @@ export const serviceData = [
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
+    title: "SelfEd",
+    description: "Mobile Application",
     bgImage: assets.work1,
+    link: "https://selfed01--im10tarfp6.expo.app/",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "FoodEats",
+    description: "Web Application",
     bgImage: assets.work2,
+    link:"https://github.com/vishwajeettoppo/online-food-order.git"
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "Blogify",
+    description: "Web Application",
     bgImage: assets.work3,
+    link:"",
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
+    title: "Footwears",
+    description: "Web Design",
     bgImage: assets.work4,
+    link:"https://footwear-store-orcin.vercel.app/",
   },
 ];

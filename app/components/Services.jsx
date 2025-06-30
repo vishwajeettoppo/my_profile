@@ -8,8 +8,7 @@ const Services = () => {
       <h4 className="text-center mb-2 text-lg font-outfit">What I offer</h4>
       <h2 className="text-center text-5xl">My Services</h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12">
-        I am a frontend developer from India, with 4 years of experience in
-        multiple companies like Microsoft, Tesla and Apple.
+      Offering full-stack web development services with expertise in modern frontend frameworks like React.js and robust backend solutions using Node.js and Express.js. Dedicated to delivering responsive, user-centric applications tailored to your needs.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10">
         {serviceData.map(({ icon, title, description, link }, index) => (
