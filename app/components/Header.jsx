@@ -45,7 +45,8 @@ const Header = () => {
         className=" max-w-2xl mx-auto "
       >
         I am a fullstack developer from India, with 2 years of experience in
-        multiple technologies like Next, React, Node, Express, MongoDB, Firebase, TailwindCSS etc.
+        multiple technologies like Next, React, Node, Express, MongoDB,
+        Firebase, TailwindCSS etc.
       </motion.p>
       <div className=" flex flex-col sm:flex-row gap-5 items-center mt-4">
         <motion.a
@@ -63,7 +64,8 @@ const Header = () => {
           initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.9 }}
-          href="./sample-resume.pdf"
+          target="_blank" 
+          href="https://drive.google.com/file/d/1oV3vFsVHLp2Q82TjjgdeS-cyS-MDar5c/view?usp=sharing"
           className="flex rounded-full w-38 cursor-pointer justify-evenly p-2 border border-black dark:bg-foreground dark:text-foreground"
         >
           <p className=" text-black">my resume</p>

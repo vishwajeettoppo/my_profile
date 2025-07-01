@@ -110,13 +110,13 @@ export const workData = [
     title: "FoodEats",
     description: "Web Application",
     bgImage: assets.work2,
-    link:"https://github.com/vishwajeettoppo/online-food-order.git"
+    link:"https://online-food-order-opal.vercel.app/"
   },
   {
     title: "Blogify",
     description: "Web Application",
     bgImage: assets.work3,
-    link:"",
+    link:"https://github.com/vishwajeettoppo/Blog.git",
   },
   {
     title: "Footwears",
